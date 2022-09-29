@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Plants" />
+    <meta name="keywords" content="Plant" />
+    <meta name="author" content="Matilda Bengtsson" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/img2/ikon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Växtriket</title>
+  </head>
+
+  <body>
+    <nav class="topnav" id="myTopNav">
+      <!--Logga-->
+      <a href="/index.html" class="active"
+        ><h1>
+          VÄXTRIKET
+          <img src="/img2/ikon.png" style="width: 2rem" />
+        </h1>
+      </a>
+      <!-- Navbar Länkar -->
+      <ul id="myLinks">
+        <li><a id="topOfPage" href="/index.html">HEM</a></li>
+        <li><a href="/sortiment.html">VÄXTER</a></li>
+        <li><a href="#about">OM OSS</a></li>
+        <li><a href="/contact.html">KONTAKT</a></li>
+      </ul>
+
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+
+    <div class="form-wrapper">
+      <h3 class="contact-heading">Kontakta oss</h3>
+
+      <div class="form-wrapper-inner">
+        <form action="">
+          <label for="first-name">Förnamn</label>
+          <input type="text" name="first-name" placeholder="Ditt förnamn" />
+
+          <label for="last-name">Efternamn</label>
+          <input type="text" name="first-name" placeholder="Ditt efternamn" />
+
+          <label for="first-name">E-postadress</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Din e-postadress"
+            required
+          />
+
+          <label for="phone-number">Telefon</label>
+          <input type="number" name="" placeholder="Telefon" required />
+
+          <label for="first-name">Förnamn</label>
+          <input id="text-message" type="" placeholder="Meddelande" />
+
+          <select
+            name="reason"
+            id="reason"
+            aria-placeholder="Anledning till kontak"
+          >
+            <option value="">Anledning till kontakt</option>
+            <option value="">Missnjöjd med min växt</option>
+            <option value="">Problem med medlemskap</option>
+            <option value="">Frågor kring leverans</option>
+          </select>
+          <input type="submit" name="" id="submit-btn" value="Skicka in" />
+        </form>
+      </div>
+    </div>
+    <a href="#home">Till toppen</a>
+
+    <footer class="footer">
+      <div class="footer-container"></div>
+    </footer>
+
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
