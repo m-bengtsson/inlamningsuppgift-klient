@@ -46,7 +46,6 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         navMenu.classList.remove("active");
     }))
 
-
     // Dark och light mode
     function darkMode() {     
       var element = document.body;
@@ -56,20 +55,8 @@ document.querySelectorAll(".nav-link").forEach(n => n.
       navElement.style.color="white";
       navElement.style.opacity =0.8;
 
-      const wrapperElement = document.querySelector(".wrapper-home");
-      wrapperElement.style.backgroundColor = "#65764f";
-
       const logoElement = document.querySelector(".navbar a");
       logoElement.style.color = "white";
-
-      const navLinkElements = document.querySelectorAll(".nav-link");
-      navLinkElements.forEach(navLinkElement => {
-        
-      });
-
-      const footerElement = document.querySelector(".footer");
-      footerElement.style.backgroundColor = "black";
-
     }
     function lightMode() {
       var element = document.body;
@@ -82,15 +69,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.
 
       const logoElement = document.querySelector(".navbar a");
       logoElement.style.color = "black";
-
-      const navLinkElements = document.querySelectorAll(".nav-link");
-      navLinkElements.forEach(navLinkElement => {
-        
-      });
-
+      
       const wrapperElement = document.querySelector(".wrapper");
       wrapperElement.style.backgroundColor = "#d7ddce";
-
-
-
     }
