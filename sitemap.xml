@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+   <url>
+      <loc>http://www.vaxtriket.se/</loc>
+      <lastmod>2022-10-05</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+      <image:image>
+      <image:loc>http://vaxtriket.se/img/plant-ikon.jpeg</image:loc>
+      </image:image>
+            <image:image>
+      <image:loc>http://vaxtriket.se/img/plant-left.jpeg</image:loc>
+      </image:image>
+            <image:image>
+      <image:loc>http://vaxtriket.se/img/plant-on-table.jpeg</image:loc>
+      </image:image>
+            <image:image>
+      <image:loc>http://vaxtriket.se/img/plant-on-cart.jpeg</image:loc>
+      </image:image>
+   </url>
+      <url>
+      <loc>http://www.vaxtriket.se/sortiment</loc>
+      <lastmod>2022-10-05</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+            </image:image>
+            <image:image>
+      <image:loc>http://vaxtriket.se/img/plant-item.jpeg</image:loc>
+      </image:image>
+   </url>
+      <url>
+      <loc>http://www.vaxtriket.se/contact</loc>
+      <lastmod>2022-10-05</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+      <url>
+      <loc>http://www.vaxtriket.se/sitemap</loc>
+      <lastmod>2022-10-05</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+
+   bilder 
+
+   <url>
+      <loc>http://www.vaxtriket.se/</loc>
+       <image:image>
+       </
+
+   </url>
+
+   <url>
+      <loc>http://www.vaxtriket.se/omosss</loc>
+      <lastmod>2022-10-05</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://www.vaxtriket.se/omosss</loc>
+      <lastmod>2022-10-05</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://www.vaxtriket.se/omosss</loc>
+      <lastmod>2022-10-05</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+   <url>
+      <loc>http://www.vaxtriket.se/omosss</loc>
+      <lastmod>2022-10-05</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+
+   
+
+
+</urlset> 

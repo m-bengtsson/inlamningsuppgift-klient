@@ -1,3 +1,5 @@
+
+//Hamburgare meny
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -12,3 +14,12 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         navMenu.classList.remove("active");
     }))
 
+// Form validation
+function validateForm() {
+  let x = document.forms["myForm"]["first-name"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+  else(x=="")
+}

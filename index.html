@@ -2,52 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Plants" />
-    <meta name="keywords" content="Plant" />
+    <meta name="description" content="Växter online" />
+    <meta
+      name="keywords"
+      content="växter online, ovanliga växter, trendiga växter"
+    />
     <meta name="author" content="Matilda Bengtsson" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property:og=></meta>
-    <link rel="icon" href="/img2/ikon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Växter online" />
+    <meta property="og:url" content="https://vaxtriket.se" />
+    <meta property="og:image" content="/img/plant-item.jpeg" />
+    <meta property="og:description" content="Köp gröna växter online" />
+    <meta property="og:site_name" content="vaxtriket.se" />
+
+    <link rel="icon" href="/img/plant-ikon.png" />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+
+    <script
+      src="https://kit.fontawesome.com/1db7565829.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Växtriket</title>
   </head>
 
   <body>
-    <nav class="topnav" id="myTopNav">
-      <!--Logga-->
-      <a href="/index.html" class="active"
-        ><h1>
+    <header>
+      <nav class="navbar">
+        <a href="/index.html" class="nav-branding">
           VÄXTRIKET
-          <img src="/img2/ikon.png" style="width: 2rem" />
-        </h1>
-      </a>
-      <!-- Navbar Länkar -->
-      <ul id="myLinks">
-        <li><a href="/index.html">HEM</a></li>
-        <li><a href="/sortiment.html">VÄXTER</a></li>
-        <li><a href="#about">OM OSS</a></li>
-        <li><a href="/contact.html">KONTAKT</a></li>
-      </ul>
+          <img src="/img/plant-ikon.png" style="width: 2rem" />
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">HEM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/sortiment.html">VÄXTER</a>
+          </li>
 
-      <!-- "Hamburgare meny-->
-      <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">KONTAKT</a>
+          </li>
+          <li>
+            <button onclick="darkMode()">Darkmode</button>
+            <button onclick="lightMode()">LightMode</button>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
 
     <!-- Slideshow container -->
     <div class="slideshow-container">
       <div class="mySlides fade">
         <img
-          src="img2/B6C2D922-4A07-4939-96B9-C90278326592_1_201_a.jpeg"
+          src="img/plant-on-table.jpeg"
           style="width: 100%"
+          alt="plants"
+          name="plants on the floor"
         />
         <div class="text">
-          <h2>Våra växter</h3>
+          <h2 class="heading-on-slidshow">Våra växter</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
             necessitatibus quam tenetur itaque sunt molestias est eaque deleniti
@@ -58,14 +79,18 @@
       </div>
       <div class="mySlides fade">
         <img
-          src="img2/DC01A505-2208-4094-8659-5DAC74853D95_1_201_a.jpeg"
+          src="img/plant-on.cart.jpeg"
           style="width: 100%"
+          alt="plants"
+          name="plants on cart"
         />
       </div>
       <div class="mySlides fade">
         <img
-          src="img2/E9B625FA-C1E9-44C2-9A72-1F265FE42BEE_1_201_a.jpeg"
+          src="img/plant-left.jpeg"
           style="width: 100%"
+          alt="plant"
+          name="monstera"
         />
       </div>
       <!-- Knapp till nästa -->
@@ -86,98 +111,79 @@
       <h3>Lorem ipsum dolor sit amet</h3>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper-home">
       <div class="column home">
-        <div class="container">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-          similique suscipit, quaerat eligendi, quibusdam quis illo,
-          perspiciatis et sed beatae fugiat pariatur necessitatibus? Officiis
-          fugit minima illo animi sint nihil.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-          similique suscipit, quaerat eligendi, quibusdam quis illo,
-          perspiciatis et sed beatae fugiat pariatur necessitatibus? Officiis
-          fugit minima illo animi sint nihil.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-          similique suscipit, quaerat eligendi, quibusdam quis illo,
-          perspiciatis et sed beatae fugiat pariatur necessitatibus? Officiis
-          fugit minima illo animi sint nihil.
+        <div class="container-home">
+          <h4>Lorem ipsum</h4>
+          <p>
+            ipsum dolor sit amet, consectetur adipisicing elit. Illum similique
+            suscipit, quaerat eligendi, quibusdam quis illo, perspiciatis et sed
+            beatae fugiat pariatur necessitatibus? Officiis fugit minima illo
+            animi sint nihil. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Illum similique suscipit, quaerat eligendi,
+            quibusdam quis illo, perspiciatis et sed beatae fugiat pariatur
+            necessitatibus? Officiis fugit minima illo animi sint nihil.
+          </p>
         </div>
-        </div>
-        <div class="column home">
-         <div class="container">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-          similique suscipit, quaerat eligendi, quibusdam quis illo,
-          perspiciatis et sed beatae fugiat pariatur necessitatibus? Officiis
-          fugit minima illo animi sint nihil.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-          similique suscipit, quaerat eligendi, quibusdam quis illo,
-          perspiciatis et sed beatae fugiat pariatur necessitatibus? Officiis
-          fugit minima illo animi sint nihil.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-          similique suscipit, quaerat eligendi, quibusdam quis illo,
-          perspiciatis et sed beatae fugiat pariatur necessitatibus? Officiis
-          fugit minima illo animi sint nihil.
+      </div>
+      <div class="column home">
+        <div class="container-home">
+          <h4>Lorem ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+            similique suscipit, quaerat eligendi, quibusdam quis illo,
+            perspiciatis et sed beatae fugiat pariatur necessitatibus? Officiis
+            fugit minima illo animi sint nihil. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Illum similique suscipit, quaerat
+            eligendi, quibusdam quis illo, perspiciatis et sed beatae fugiat
+            pariatur necessitatibus? Officiis fugit minima illo animi sint
+            nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Illum similique suscipit, quaerat eligendi, quibusdam quis illo,
+            perspiciatis et sed beatae fugiat pariatur necessitatibus? Officiis
+            fugit minima illo animi sint nihil.
+          </p>
         </div>
       </div>
     </div>
 
     <footer class="footer">
-      <div class="footer-container">
-
+      <div class="footer-column">
+        <h4>VÄXTRIKET.SE</h4>
+        <p><i class="fa-solid fa-phone"></i> 930-293019</p>
+        <p><i class="fa-sharp fa-solid fa-location-dot"></i> Växtgatan 34</p>
+        <p><i class="fa-sharp fa-solid fa-envelope"></i> växtriket@växter.se</p>
       </div>
+      <div class="footer-column">
+        <h4>Öppettider</h4>
+        <p>Måndag - fredag: 10-18</p>
+        <p>Lördag: 10-17</p>
+        <p>Söndag: 11-17</p>
+      </div>
+      <div class="footer-column">
+        <h4>Social Media</h4>
 
+        <ul class="social-media-list">
+          <li class="social-media-items">
+            <a href="#facebook"
+              >Facebook <i class="fa-brands fa-square-facebook fa-lg"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#instagram"
+              >Instagram <i class="fa-brands fa-instagram fa-lg"></i
+            ></a>
+          </li>
+          <li>
+            <a href="pinterest"
+              >Pinterest <i class="fa-brands fa-pinterest fa-lg"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </footer>
-
-    <script>
-      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-      function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-      let slideIndex = 1;
-      showSlides(slideIndex);
-
-      // Next/previous controls
-      function plusSlides(n) {
-        showSlides((slideIndex += n));
-      }
-
-      // Thumbnail image controls
-      function currentSlide(n) {
-        showSlides((slideIndex = n));
-      }
-
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-      }
-    </script>
+    <div class="end-of-page">
+      <a href="sitemap.html">Sitemap</a>
+    </div>
+    <script src="/script/script.js"></script>
   </body>
 </html>

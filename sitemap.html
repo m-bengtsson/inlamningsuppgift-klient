@@ -2,18 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Kontakt" />
-    <meta name="keywords" content="Kontakta oss, " />
+    <meta name="description" content="Plants" />
+    <meta name="keywords" content="Plant" />
     <meta name="author" content="Matilda Bengtsson" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Växter online" />
-    <meta property="og:url" content="https://vaxtriket.se" />
-    <meta property="og:image" content=”/img/plant-item.jpeg">
-    <meta property="og:description" content="Köp gröna växter online" />
-    <meta property="og:site_name" content="vaxtriket.se" />
-
     <link rel="icon" href="/img/plant-ikon.png" />
     <link rel="stylesheet" href="css/style.css" />
 
@@ -57,54 +49,21 @@
       </nav>
     </header>
 
-    <div class="form-wrapper">
-      <h3 class="contact-heading">Kontakta oss</h3>
+    <section class="site-map">
+      <h2>Sitemap</h2>
+      <ul class="site-map-list">
+        <li class="site-map-item">
+          <a href="/index.html">Hem</a>
+        </li>
+        <li class="site-map-item">
+          <a href="/contact.html">Kontakt</a>
+        </li>
+        <li class="site-map-item">
+          <a href="/sortiment.html">Sortiment</a>
+        </li>
+      </ul>
+    </section>
 
-      <div class="form-wrapper-inner">
-        <form name="myForm" onsubmit="return validateForm()">
-          <label for="first-name">Förnamn</label>
-          <input type="text" name="first-name" placeholder="Ditt förnamn" />
-
-          <label for="last-name">Efternamn</label>
-          <input type="text" name="last-name" placeholder="Ditt efternamn" />
-
-          <label for="first-name">E-postadress</label>
-          <input type="email" name="email" placeholder="Din e-postadress" />
-
-          <label for="phone-number">Telefon</label>
-          <input type="number" name="" placeholder="Telefon" />
-
-          <select
-            name="reason"
-            id="reason"
-            aria-placeholder="Anledning till kontak"
-          >
-            <option value="">Anledning till kontakt</option>
-            <option value="">Missnjöjd med min växt</option>
-            <option value="">Problem med medlemskap</option>
-            <option value="">Frågor kring leverans</option>
-          </select>
-
-          <label for="text-message">Meddelande</label>
-
-          <textarea
-            id="text-message"
-            name="story"
-            rows="5"
-            cols="33"
-            placeholder="Meddelande"
-          >
-          </textarea>
-
-          <input
-            type="submit"
-            name="submithere"
-            id="submit-btn"
-            value="submit"
-          />
-        </form>
-      </div>
-    </div>
     <footer class="footer">
       <div class="footer-column">
         <h4>VÄXTRIKET.SE</h4>

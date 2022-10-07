@@ -2,36 +2,63 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Plants" />
-    <meta name="keywords" content="Plant" />
+    <meta name="description" content="Växter sortiment" />
+    <meta
+      name="keywords"
+      content="Köp växter, gröna växter, aroider, rariteter"
+    />
     <meta name="author" content="Matilda Bengtsson" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/img2/ikon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Växtsortiment" />
+    <meta property="og:url" content="https://vaxtriket.se/sortiment" />
+    <meta property="og:image" content="/img/plant-item.jpeg" />
+    <meta property="og:description" content="Köp gröna växter online" />
+    <meta property="og:site_name" content="vaxtriket.se" />
+
+    <link rel="icon" href="/img/plant-ikon.png" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="script" href="/script/script.js">
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <script
+      src="https://kit.fontawesome.com/1db7565829.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Växtriket</title>
   </head>
 
   <body>
-    <nav class="topnav" id="myTopNav">
-      <!--Logga-->
-      <a href="/index.html" class="active">
-        <h1>VÄXTRIKET <img src="/img2/ikon.png" style="width: 2rem" /></h1>
-      </a>
-      <!-- Navbar Länkar -->
-      <ul id="myLinks">
-        <li><a href="/index.html">HEM</a></li>
-        <li><a href="/sortiment.html">VÄXTER</a></li>
-        <li><a href="#about">OM OSS</a></li>
-        <li><a href="/contact.html">KONTAKT</a></li>
-      </ul>
-
-      <!-- Hamburger meny -->
-      <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </nav>
+    <header>
+      <nav class="navbar">
+        <a href="/index.html" class="nav-branding">
+          VÄXTRIKET
+          <img src="/img/plant-ikon.png" style="width: 2rem" />
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">HEM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/sortiment.html">VÄXTER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">OM OSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">KONTAKT</a>
+          </li>
+          <li>
+            <button onclick="darkMode()">Darkmode</button>
+            <button onclick="lightMode()">LightMode</button>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
 
     <div class="second-heading">
       <h2>Lorem ipsum dolor sit ametdolor sit amet</h2>
@@ -39,210 +66,150 @@
     </div>
 
     <div class="wrapper">
-      <div class="column">
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
+      <div class="container">
+        <div>
+          <img src="img/plant-item.jpeg" alt="" style="width: 100%" />
         </div>
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="container">
+        <div>
+          <img src="img/plant-item.jpeg" alt="" style="width: 100%" />
         </div>
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="container">
+        <div>
+          <img src="img/plant-item.jpeg" alt="" style="width: 100%" />
         </div>
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="container">
+        <div>
+          <img src="img/plant-item.jpeg" alt="" style="width: 100%" />
         </div>
+        <p>Lorem ipsum dolor sit amet</p>
       </div>
 
-      <div class="column">
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
-        </div>
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
-        </div>
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
-        </div>
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
-        </div>
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
-        </div>
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
-        </div>
-        <div class="container">
-          <div>
-            <img
-              src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-              alt=""
-              style="width: 100%"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet
-          </p>
-        </div>
-    </div>
-    <div class="column">
       <div class="container">
         <div>
           <img
-            src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-            alt=""
+            src="img/plant-item.jpeg"
+            alt="monstera plant"
             style="width: 100%"
           />
         </div>
-        <p>
-          Lorem ipsum dolor sit amet
-        </p>
+        <p>Lorem ipsum dolor sit amet</p>
       </div>
       <div class="container">
         <div>
-          <img
-            src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-            alt=""
-            style="width: 100%"
-          />
+          <img src="img/plant-item.jpeg" alt="" style="width: 100%" />
         </div>
-        <p>
-          Lorem ipsum dolor sit amet
-        </p>
+        <p>Lorem ipsum dolor sit amet</p>
       </div>
       <div class="container">
         <div>
-          <img
-            src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-            alt=""
-            style="width: 100%"
-          />
+          <img src="/img/plant-item.jpeg" alt="" style="width: 100%" />
         </div>
-        <p>
-          Lorem ipsum dolor sit amet
-        </p>
+        <p>Lorem ipsum dolor sit amet</p>
       </div>
       <div class="container">
         <div>
-          <img
-            src="AF470420-26C0-46EC-A065-50227E6B3BD1_1_105_c.jpeg"
-            alt=""
-            style="width: 100%"
-          />
+          <img src="/img/plant-item.jpeg" alt="" style="width: 100%" />
         </div>
-        <p>
-          Lorem ipsum dolor sit amet
-        </p>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+
+      <div class="container">
+        <div>
+          <img src="/img/plant-item.jpeg" alt="" style="width: 100%" />
+        </div>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="container">
+        <div>
+          <img src="/img/plant-item.jpeg" alt="" style="width: 100%" />
+        </div>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="container">
+        <div>
+          <img src="/img/plant-item.jpeg" alt="" style="width: 100%" />
+        </div>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="container">
+        <div>
+          <img src="/img/plant-item.jpeg" alt="" style="width: 100%" />
+        </div>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+
+      <div class="container">
+        <div>
+          <img src="/img/plant-item.jpeg" alt="" style="width: 100%" />
+        </div>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="container">
+        <div>
+          <img src="/img/plant-item.jpeg" alt="" style="width: 100%" />
+        </div>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="container">
+        <div>
+          <img src="img/plant-item.jpeg" alt="" style="width: 100%" />
+        </div>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="container">
+        <div>
+          <img src="/img/plant-item.jpeg" alt="" style="width: 100%" />
+        </div>
+        <p>Lorem ipsum dolor sit amet</p>
       </div>
     </div>
 
     <footer class="footer">
-      <div class="footer-container"></div>
+      <div class="footer-column">
+        <h4>VÄXTRIKET.SE</h4>
+        <p><i class="fa-solid fa-phone"></i> 930-293019</p>
+        <p><i class="fa-sharp fa-solid fa-location-dot"></i> Växtgatan 34</p>
+        <p><i class="fa-sharp fa-solid fa-envelope"></i> växtriket@växter.se</p>
+      </div>
+      <div class="footer-column">
+        <h4>Öppettider</h4>
+        <p>Måndag - fredag: 10-18</p>
+        <p>Lördag: 10-17</p>
+        <p>Söndag: 11-17</p>
+      </div>
+      <div class="footer-column">
+        <h4>Social Media</h4>
+
+        <ul class="social-media-list">
+          <li class="social-media-items">
+            <a href="#facebook"
+              >Facebook <i class="fa-brands fa-square-facebook fa-lg"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#instagram"
+              >Instagram <i class="fa-brands fa-instagram fa-lg"></i
+            ></a>
+          </li>
+          <li>
+            <a href="pinterest"
+              >Pinterest <i class="fa-brands fa-pinterest fa-lg"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </footer>
+    <div class="end-of-page">
+      <a href="sitemap.html">Sitemap</a>
+    </div>
+
+    <script src="/script/script.js"></script>
   </body>
 </html>
